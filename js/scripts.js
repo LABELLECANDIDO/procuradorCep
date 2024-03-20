@@ -6,8 +6,8 @@ const chaveApi = 'd20d97eec4dd1610d938b469bf8381fd'; //chave api
 
 async function receberEPopularDados(cep){ 
     //dentro de uma função assincrona a primeira coisa é fzr um try/catch
-    if(!cep){
-        alert("informe o cep.")//verifica se o cep foi informado
+    if(!cep || cep.length !==8){
+        alert("informe o cep com 8 digitos.")//verifica se o cep foi informado
         return;
     }
 try{
@@ -33,7 +33,7 @@ try{
 
     const cidade = dataCep.localidade; 
         //requisicão da api
-    const urlGeocoding = `${apiGeoUrl}${cidade}&appid=${chaveApi}`;
+    const urlGeocoding = `${apiGeoUrl}${dataCep.localidade}&appid=${chaveApi}`;
     const responseGeo = await fetch(urlGeocoding);
 
     if(!responseGeo.ok){ //validando
@@ -68,7 +68,14 @@ try{
 
 } catch(error){
     console.error('erro ao carregar: ', error);
-    alert("Digite qual é a cidade.")
+   
+    if(error.message === 'idade não encontrada'){
+        alert('cidade n encontrada pro cep que foi digitado.')
+    }else if(error.message === 'erro ao buscar a temperatura'){
+        alert('erro ao buscar temperatura')
+    }else{
+        alert('tente mais tarde')
+    }
 
 } 
 } 
