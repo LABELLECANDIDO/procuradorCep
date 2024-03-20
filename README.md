@@ -1,5 +1,5 @@
 
-# Consulta de CEP e Temperatura
+# Consulta de Temperatura pelo Cep
 Este projeto permite que você consulte o endereço e a temperatura de um CEP no Brasil.
 
 # Funcionalidades:
