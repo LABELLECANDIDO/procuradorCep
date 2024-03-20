@@ -27,6 +27,22 @@ Este projeto permite que você consulte o endereço e a temperatura de um CEP no
 - JavaScript
 - API ViaCEP
 - API OpenWeatherMap
+
+# Screenshots:
+
+<br>
+
+<p align="center">
+  <img alt="projeto" src="./img/foto1.png" width="60%">
+  </p>
+  <p align="center">
+  <img alt="projeto " src="./img/foto2.png" width="80%">
+</p>
+ <p align="center">
+  <img alt="projeto " src="./img/foto3.png" width="70%">
+
+</p>
+
 # Como contribuir:
 
 - Fork this repository.
