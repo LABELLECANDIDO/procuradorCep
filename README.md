@@ -61,4 +61,4 @@ Este projeto está licenciado sob a licença MIT.
 - OpenWeatherMap: https://openweathermap.org/
 # Exemplo de uso:
 
-Exemplo de uso: [URL inválido removido]
+Exemplo de uso: [https://procurador-cep-nine.vercel.app/]
