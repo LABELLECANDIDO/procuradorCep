@@ -31,7 +31,7 @@ try{
         
     }
 
-    const cidade = document.querySelector('#cidade-input').value; 
+    const cidade = dataCep.localidade; 
         //requisicão da api
     const urlGeocoding = `${apiGeoUrl}${cidade}&appid=${chaveApi}`;
     const responseGeo = await fetch(urlGeocoding);
