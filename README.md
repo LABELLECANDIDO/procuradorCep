@@ -39,7 +39,7 @@ Este projeto permite que você consulte o endereço e a temperatura de um CEP no
   <img alt="projeto " src="./img/foto2.png" width="80%">
 </p>
  <p align="center">
-  <img alt="projeto " src="./img/foto3.png" width="70%">
+  <img alt="projeto " src="./img/foto3.png" width="50%">
 
 </p>
 
