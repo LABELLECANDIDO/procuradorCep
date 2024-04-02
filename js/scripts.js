@@ -69,7 +69,7 @@ try{
 } catch(error){
     console.error('erro ao carregar: ', error);
    
-    if(error.message === 'idade não encontrada'){
+    if(error.message === 'cidade não encontrada'){
         alert('cidade n encontrada pro cep que foi digitado.')
     }else if(error.message === 'erro ao buscar a temperatura'){
         alert('erro ao buscar temperatura')
